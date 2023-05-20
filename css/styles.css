@@ -935,7 +935,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .portfolio-section {
     padding-bottom: 48px;
     padding-top: 48px;
@@ -948,7 +948,7 @@ img {
   margin-bottom: 72px;
   justify-content: center;
 }
-@media only screen and (min-width: 428px) and (max-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .section-list-button {
     row-gap: 24px;
     flex-wrap: wrap;
@@ -956,7 +956,7 @@ img {
     margin-bottom: 48px;
   }
 }
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 438px) and (max-width: 767px) {
   .button-list-li {
     width: calc((100% - 48px) / 3);
     margin-right: auto;
@@ -1029,7 +1029,7 @@ img {
   row-gap: 0px;
   padding: 0;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .section-list-img {
     column-gap: 0px;
     row-gap: 48px;
@@ -1038,12 +1038,12 @@ img {
 .portfolio-section-img {
   width: calc((100% - 48px) / 3);
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .portfolio-section-img {
     width: calc((100% - 0px) / 1);
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .portfolio-section-img {
     width: calc((100% - 24px) / 2);
   }
