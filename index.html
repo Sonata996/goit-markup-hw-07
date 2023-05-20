@@ -61,6 +61,19 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-svg-open" width="32" height="22">
+            <use
+              stroke="#2E2F42"
+              class="mobile-svg-open"
+              href="./images/icons.svg#icon-Vector-3"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -138,7 +151,7 @@
             <li class="three-section-li">
               <img
                 class="three-section-img"
-                src="./images/main-page/Rectangle-71.jpg"
+                src="./images/main-page/two-section/Rectangle-1_@1x.jpg"
                 alt="photo upload error"
                 width="360"
               />
@@ -147,7 +160,7 @@
             <li class="three-section-li">
               <img
                 class="three-section-img"
-                src="./images/main-page/Rectangle-71-(1).jpg"
+                src="./images/main-page/two-section/Rectangle-2_@1x.jpg"
                 alt="photo upload error"
                 width="360"
               />
@@ -156,7 +169,7 @@
             <li class="three-section-li">
               <img
                 class="three-section-img"
-                src="./images/main-page/Rectangle-71-(2).jpg"
+                src="./images/main-page/two-section/Rectangle-3_@1x.jpg"
                 alt="photo upload error"
                 width="360"
               />
@@ -173,7 +186,7 @@
             <li class="section-list-item">
               <img
                 class="four-section-img"
-                src="./images/main-page/img.jpg"
+                src="./images/main-page/team/Mark-Guerrero_@1x.jpg"
                 alt="photo upload error"
               />
               <div class="section-list-div">
@@ -215,7 +228,7 @@
             <li class="section-list-item">
               <img
                 class="four-section-img"
-                src="./images/main-page/img-(1).jpg"
+                src="./images/main-page/team/Tom-Ford_@1x.jpg"
                 alt="photo upload error"
               />
               <div class="section-list-div">
@@ -257,7 +270,7 @@
             <li class="section-list-item">
               <img
                 class="four-section-img"
-                src="./images/main-page/img-(2).jpg"
+                src="./images/main-page/team/Camila-Garcia_@1x.jpg"
                 alt="photo upload error"
               />
               <div class="section-list-div">
@@ -299,7 +312,7 @@
             <li class="section-list-item">
               <img
                 class="four-section-img"
-                src="./images/main-page/img-(3).jpg"
+                src="./images/main-page/team/Daniel-Wilson_@1x.jpg"
                 alt="photo upload error"
               />
               <div class="section-list-div">
@@ -542,21 +555,63 @@
       </div>
     </div>
     <!-- modal mobile -->
-    <div>
-      <div class="menu-container js-menu-container is-hidden" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <svg class="modal-open-momile-menu" width="20" height="16">
-            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-          </svg>
-        </button>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        type="button"
+        class="modile-btn-open menu-toggle js-close-menu backdrop-close-btn"
+      >
+        <svg width="8" height="8" class="mobile-svg-open backdrop-close-icon">
+          <use href="./images/icons.svg#icon-close-modwin"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="mobile-link">Studio</a></li>
+        <li><a href="./portfolio.html" class="mobile-link">Portfolio</a></li>
+        <li><a href="" class="mobile-link">Contacts</a></li>
+      </ul>
+      <ul class="mobile-list-address list">
+        <li>
+          <a class="mobile-tel link" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
 
-        <ul class="mobile-menu">
-          <li><a href="" class="link">About</a></li>
-          <li><a href="" class="link">Products</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-          <li><a href="" class="link">Career</a></li>
-        </ul>
-      </div>
+        <li>
+          <a class="mobile-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="footer-list mobile-list-icon list">
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/model.js"></script>
