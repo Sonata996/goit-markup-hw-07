@@ -33,42 +33,46 @@ img {
   }
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .container {
-    width: 428px;
+    max-width: 428px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and(max-width:1157) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media only screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 }
 .container-team {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .container-team {
-    width: 264px;
+    max-width: 264px;
     padding: 0;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .container-team {
-    width: 552px;
+    max-width: 552px;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .container-team {
+    max-width: 1158px;
+  }
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -87,7 +91,7 @@ img {
   text-decoration: none;
   margin-right: 76px;
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .nav-link {
     margin-right: 120px;
   }
@@ -110,7 +114,7 @@ img {
   margin-right: 40px;
   gap: 40px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .nav-list {
     display: none;
   }
@@ -181,7 +185,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .address {
     display: none;
   }
@@ -193,7 +197,7 @@ img {
   row-gap: 0px;
   display: flex;
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .address-list {
     column-gap: 0px;
     row-gap: 12px;
@@ -223,7 +227,7 @@ img {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .address-list-link {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -264,7 +268,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .one-section {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -338,7 +342,7 @@ img {
 .two-section {
   padding: 120px 0 120px 0;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .two-section {
     padding: 96px 0 96px 0;
   }
@@ -350,13 +354,13 @@ img {
   row-gap: 0px;
   padding-left: 0;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .two-section-item {
     row-gap: 72px;
     column-gap: 0px;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .two-section-item {
     row-gap: 72px;
     column-gap: 24px;
@@ -365,12 +369,12 @@ img {
 .two-section-li {
   width: calc((100% - 72px) / 4);
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .two-section-li {
     width: calc((100% - 0px) / 1);
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .two-section-li {
     width: calc((100% - 24px) / 2);
   }
@@ -395,7 +399,7 @@ img {
     text-transform: capitalize;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .two-section-caption {
     font-weight: 700;
     font-size: 36px;
@@ -411,7 +415,7 @@ img {
   color: #434455;
   margin: 0;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .two-section-lead {
     font-weight: 500;
   }
@@ -422,7 +426,7 @@ img {
   width: 64px;
   height: 64px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .two-section-svg {
     display: none;
   }
@@ -440,22 +444,18 @@ img {
   margin-bottom: 8px;
   align-items: center;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .div-scg {
     display: none;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
-  .div-scg {
-    display: none;
-  }
-}
+
 /* three section */
 .three-section {
   padding-top: 0px;
   padding-bottom: 120px;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .three-section {
     display: none;
   }
@@ -493,7 +493,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .four-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -510,13 +510,13 @@ img {
   margin-right: 24px;
   padding-left: 0;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .four-section-list {
     column-gap: 0px;
     row-gap: 72px;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 429px) and (max-width: 1157px) {
   .four-section-list {
     column-gap: 24px;
     row-gap: 64px;
@@ -548,12 +548,12 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .section-list-item {
     width: calc((100% - 0px) / 1);
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .section-list-item {
     width: calc((100% - 24px) / 2);
   }
@@ -623,7 +623,7 @@ img {
   padding-bottom: 120px;
   padding-top: 120px;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .section-five {
     padding-bottom: 96px;
     padding-top: 96px;
@@ -653,7 +653,7 @@ img {
     row-gap: 72px;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 429px) and (max-width: 1157px) {
   .five-section-list {
     column-gap: 24px;
     row-gap: 72px;
@@ -689,12 +689,8 @@ img {
 .five-list-item {
   width: calc((100% - 120px) / 6);
 }
-@media only screen and (min-width: 428px) {
-  .five-list-item {
-    width: calc((100% - 24px) / 2);
-  }
-}
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+
+@media only screen and (min-width: 429px) and (max-width: 1157px) {
   .five-list-item {
     width: calc((100% - 48px) / 3);
   }
@@ -711,7 +707,7 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .footer {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -732,7 +728,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-@media only screen and (min-width: 428px) and (max-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .footer-link {
     display: flex;
     justify-content: center;
@@ -753,24 +749,24 @@ img {
   display: flex;
   align-items: baseline;
 }
-@media only screen and (min-width: 428px) and (max-width: 768px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .footer-div {
     flex-wrap: wrap;
     row-gap: 72px;
-    justify-content: center;
+    margin-left: 108px;
   }
 }
 
 .footer-div-info {
   margin-right: 120px;
 }
-@media only screen and (min-width: 428px) and (max-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .footer-div-info {
     margin: 0 auto;
     margin-bottom: 72px;
   }
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-div-info {
     margin-right: 24px;
   }
@@ -780,7 +776,7 @@ img {
 .footer-div-icon {
   margin-right: auto;
 }
-@media only screen and (min-width: 428px) and (max-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .footer-div-icon {
     margin: 0 auto;
   }
@@ -799,7 +795,7 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .footer-p-icon {
     display: flex;
     justify-content: center;
@@ -828,7 +824,11 @@ img {
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
-@media only screen and (min-width: 429px) and (max-width: 768px) {
+.footer-info-icon {
+  display: flex;
+  margin-right: 80px;
+}
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .footer-info-icon {
     display: flex;
   }
@@ -844,7 +844,7 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .Subscribe {
     display: flex;
     justify-content: center;
@@ -859,7 +859,7 @@ img {
   align-items: center;
   letter-spacing: 0.04em;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 1157px) {
   .div-input input::placeholder {
     line-height: 2;
   }
@@ -869,7 +869,7 @@ img {
   column-gap: 24px;
   row-gap: 0px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .div-form {
     justify-content: center;
     flex-wrap: wrap;
@@ -889,7 +889,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-@media only screen and (min-width: 428px) {
+@media only screen and (min-width: 428px) and (max-width: 767px) {
   .input-field {
     width: 398px;
   }
