@@ -272,6 +272,17 @@ img {
   background-position: center;
   background-size: cover;
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .one-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/main-page/bc-dark/people-office-desktop_@2x.jpg);
+  }
+}
 @media only screen and (min-width: 428px) and (max-width: 767px) {
   .one-section {
     background-image: url(../images/main-page/bc-dark/people-office-mobile_@1x.jpg);
@@ -285,6 +296,17 @@ img {
     background-size: cover;
   }
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .one-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/main-page/bc-dark/people-office-mobile_@2x.jpg);
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .one-section {
     padding-top: 112px;
@@ -296,6 +318,17 @@ img {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/main-page/bc-dark/people-office-tablet_@1x.jpg);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .one-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/main-page/bc-dark/people-office-tablet_@2x.jpg);
   }
 }
 .one-section {
