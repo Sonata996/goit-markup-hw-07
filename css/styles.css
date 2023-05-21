@@ -1405,6 +1405,11 @@ img {
   outline: none;
   background-color: #fff;
 }
+@media only screen and (min-width: 768px) {
+  .butto-open-mobile {
+    display: none;
+  }
+}
 .menu-toggle {
   min-height: 24px;
   min-width: 24px;
@@ -1433,6 +1438,8 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   padding: 32px;
@@ -1458,7 +1465,7 @@ img {
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-bottom: 284px;
+  margin-bottom: auto;
   display: flex;
   flex-wrap: wrap;
   row-gap: 40px;
