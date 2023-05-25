@@ -54,6 +54,19 @@
             </li>
           </ul>
         </address>
+        <button
+          class="butto-open-mobile js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-svg-open" width="32" height="22">
+            <use
+              stroke="#2E2F42"
+              class="mobile-svg-open"
+              href="./images/icons.svg#icon-Vector-3"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -365,7 +378,70 @@
         </div>
       </div>
     </footer>
-    <div></div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        type="button"
+        class="modile-btn-open menu-toggle js-close-menu backdrop-close-btn"
+      >
+        <svg width="8" height="8" class="mobile-svg-open backdrop-close-icon">
+          <use href="./images/icons.svg#icon-close-modwin"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li>
+          <a href="./index.html" class="mobile-link"
+            ><span class="menu-mobile-studio">Studio</span></a
+          >
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-link">Portfolio</a>
+        </li>
+        <li><a href="" class="mobile-link">Contacts</a></li>
+      </ul>
+      <ul class="mobile-list-address list">
+        <li>
+          <a class="mobile-tel link menu-mobile-studio" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+
+        <li>
+          <a class="mobile-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="footer-list mobile-list-icon list">
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footre-li">
+          <a href="" class="footer-icon-link link">
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
     <script src="./model.js"></script>
   </body>
 </html>
